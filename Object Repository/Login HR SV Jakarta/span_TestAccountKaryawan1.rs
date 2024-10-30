@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_TestAccountKaryawan1</name>
+   <tag></tag>
+   <elementGuidId>0811fb0f-dfe8-4aef-a1d2-df4c572c9171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.px-3.c-header-nav > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/header/ul[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5014fddb-2d55-413c-b247-c31f55936e5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TestAccountKaryawan1</value>
+      <webElementGuid>35dbab20-8b2b-4964-b32c-5d128abe90bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;c-app c-default-layout&quot;]/div[@class=&quot;c-wrapper&quot;]/header[@class=&quot;header-root c-header c-header-light c-header-fixed&quot;]/ul[@class=&quot;px-3 c-header-nav&quot;]/span[1]</value>
+      <webElementGuid>a5b8da17-eef7-4a74-9a97-49caf32bfba0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/header/ul[3]/span</value>
+      <webElementGuid>a05142af-eab1-4282-be09-22c5373aee36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplikasi HR SV Jakarta 2023'])[1]/following::span[5]</value>
+      <webElementGuid>db563c11-88ef-49bc-b71b-265878ca3196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan Lembur'])[1]/following::span[7]</value>
+      <webElementGuid>af4ee5a9-ce9b-48c1-8921-0aeb55b11791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History Logbook'])[1]/preceding::span[1]</value>
+      <webElementGuid>9fe79653-a611-439f-b010-13f2a27144d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Logbook'])[1]/preceding::span[1]</value>
+      <webElementGuid>c5515839-6e9f-4775-8f8b-f7f2c188c561</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/span</value>
+      <webElementGuid>c8cc1ead-f175-4774-93cb-81b0583d4847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'TestAccountKaryawan1' or . = 'TestAccountKaryawan1')]</value>
+      <webElementGuid>ca735cf4-f2af-427c-9e96-994ae5ac2f3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
