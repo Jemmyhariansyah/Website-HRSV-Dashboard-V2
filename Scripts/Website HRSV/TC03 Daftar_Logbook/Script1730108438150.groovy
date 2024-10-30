@@ -70,25 +70,26 @@ WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Use Case_use_c
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/Select_Kegiatan'), 12)
 
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Hasil_hasil'),'100')
+WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Hasil_hasil'), '100')
 
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Capaian_capaian'),'100')
+WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Capaian_capaian'), '100')
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/select_--Select--ContinuePauseWait ApprovalFinal'), 4)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/select_--Select--ContinuePauseWait ApprovalFinal'), 
+    4)
 
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_PathFilename_file_name'),'QA/Tester')
+WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_PathFilename_file_name'), 'QA/Tester')
 
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/textarea_Detail Pekerjaan_detail_pekerjaan'),'Testing')
+WebUI.setText(findTestObject('Object Repository/Add_Logbook/textarea_Detail Pekerjaan_detail_pekerjaan'), 'Testing')
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/select_--Select--Jam NormalJam Lembur'), 1)
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Add_Logbook/button_Submit'))
 
-WebUI.acceptAlert()
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Add_Logbook/button_OK'))
 
 WebUI.closeBrowser()
-
-
 
