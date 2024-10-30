@@ -24,11 +24,9 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://103.180.125.58:8080/#/login')
 
 //WebUI.maximizeWindow()
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_text'), Username)
 
-WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_text'), Password)
+CustomKeywords.'loginUtilities.loginKeyword.loginHRSV'(GlobalVariable.username, GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/Add_Logbook/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Add_Logbook/span_TestAccountKaryawan1'), 'TestAccountKaryawan1')
 

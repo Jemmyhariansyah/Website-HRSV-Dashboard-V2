@@ -6,6 +6,10 @@
    <elementGuidId>fd2f8f5b-c697-4993-9d18-83dfe1edcdd0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'password' and @placeholder = 'Masukkan password anda..']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//input[@value=''])[2]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>input[type=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>889b9d27-2e2a-439b-99d7-84ae016b91b6</webElementGuid>
+      <webElementGuid>ae4f1c06-0a29-48bf-9fd8-aa490941f318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>52e244a2-baac-404a-904e-b5413fceef64</webElementGuid>
+      <webElementGuid>07ca8a1a-8d7f-4286-a439-3eaa81bee8d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan password anda..</value>
-      <webElementGuid>cd20f07b-4fcc-464d-893e-92b29f133cf4</webElementGuid>
+      <webElementGuid>36fe2094-443f-466c-810c-e36c20845c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;c-app c-default-layout flex-row align-items-center bg_image&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;justify-content-center row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;card shadow-lg&quot;]/div[@class=&quot;card-body px-5 pt-5 pb-5&quot;]/form[1]/div[@class=&quot;inputGroup&quot;]/div[@class=&quot;inputControl&quot;]/input[1]</value>
-      <webElementGuid>0ade1f63-c6cc-4493-8720-3b4dbeb315be</webElementGuid>
+      <webElementGuid>fb393f67-c29e-4a84-937f-ca10fbb7311b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>9fc75f45-2f7a-42bc-b7bb-93a1ed2031fe</webElementGuid>
+      <webElementGuid>c68b4750-4d44-4777-b58e-207e1843dcc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div/div/form/div[2]/div/input</value>
-      <webElementGuid>40040e41-866c-45b6-8239-27f6b5ed5fdf</webElementGuid>
+      <webElementGuid>2cd14ade-2ee1-44b3-9cfe-72ea1c4ff82d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>bc09b79d-d936-43ea-965d-1f7dd52f3e1c</webElementGuid>
+      <webElementGuid>1daf7f17-df63-4487-a290-7447834eba8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @placeholder = 'Masukkan password anda..']</value>
-      <webElementGuid>61b4685b-654c-40c5-9d15-092ca48cad85</webElementGuid>
+      <webElementGuid>faf5ec6a-db20-42cc-a54b-ae79fa96a0bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

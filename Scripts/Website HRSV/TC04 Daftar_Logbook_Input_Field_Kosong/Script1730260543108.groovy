@@ -16,27 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.remote.server.handler.MaximizeWindow as Keys
 
-//Open Browser
-WebUI.openBrowser('http://103.180.125.58:8080/')
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
-//Custom keywordLogin
+WebUI.navigateToUrl('http://103.180.125.58:8080/#/login')
 
 CustomKeywords.'loginUtilities.loginKeyword.loginHRSV'(GlobalVariable.username, GlobalVariable.password)
 
-//// Input Username
-//WebUI.setText(findTestObject('Object Repository/Login HR SV Jakarta/input_text'), Username)
-//
-////Input Password
-//WebUI.setText(findTestObject('Object Repository/Login HR SV Jakarta/input_password'), Password)
-//
-////Button Clik
-//WebUI.click(findTestObject('Object Repository/Login HR SV Jakarta/button_Login'))
-//
-//WebUI.verifyTextPresent('TestAccountKaryawan1',true)
-
 WebUI.closeBrowser()
-
