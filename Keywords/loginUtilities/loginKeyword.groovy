@@ -29,17 +29,17 @@ public class loginKeyword {
 	def loginHRSV(String username, String password ) {
 		// Input Username
 		WebUI.setText(findTestObject('Object Repository/Login HR SV Jakarta/input_text'), 'TestAccountKaryawan1')
-		
+
 		//Input Password
 		WebUI.setText(findTestObject('Object Repository/Login HR SV Jakarta/input_password'), 'P@sswordK1')
-		
+
 		//Button Clik
 		WebUI.click(findTestObject('Object Repository/Login HR SV Jakarta/button_Login'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Add_Logbook/img_TestAccountKaryawan1_c-avatar-img'),0)
-		
-//		WebUI.verifyElementText(findTestObject('Object Repository/Add_Logbook/span_Full Stack Engineer'), '')
-		
-//		WebUI.verifyElementPresent(findTestObject('Object Repository/Login HR SV Jakarta/span_TestAccountKaryawan1'), 1)
+
+		//		WebUI.verifyElementText(findTestObject('Object Repository/Add_Logbook/span_Full Stack Engineer'), '')
+
+		//		WebUI.verifyElementPresent(findTestObject('Object Repository/Login HR SV Jakarta/span_TestAccountKaryawan1'), 1)
 	}
 }

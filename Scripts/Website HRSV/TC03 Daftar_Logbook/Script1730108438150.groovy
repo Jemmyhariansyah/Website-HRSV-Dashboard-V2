@@ -24,9 +24,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://103.180.125.58:8080/#/login')
 
 //WebUI.maximizeWindow()
-
 CustomKeywords.'loginUtilities.loginKeyword.loginHRSV'(GlobalVariable.username, GlobalVariable.password)
-
 
 WebUI.verifyElementText(findTestObject('Object Repository/Add_Logbook/span_TestAccountKaryawan1'), 'TestAccountKaryawan1')
 
@@ -49,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Tanggal_tangga
 //Set Jam Mulai 
 WebUI.click(findTestObject('Object Repository/Add_Logbook/input_Jam Mulai'))
 
-WebUI.click(findTestObject('Object Repository/Add_Logbook/Choose_700 AM'))
+WebUI.click(findTestObject('Add_Logbook/Choose_700 AM'))
 
 //Set Jam Selesai
 WebUI.click(findTestObject('Object Repository/Add_Logbook/input_jam_selesai'))
@@ -58,7 +56,7 @@ WebUI.click(findTestObject('Object Repository/Add_Logbook/li_800 AM'))
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/select_--Select--WFOWFH'), 1)
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Add_Logbook/input_Project_project'), 'Testing')
 
@@ -81,11 +79,11 @@ WebUI.setText(findTestObject('Object Repository/Add_Logbook/textarea_Detail Peke
 
 WebUI.selectOptionByIndex(findTestObject('Object Repository/Add_Logbook/select_--Select--Jam NormalJam Lembur'), 1)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Add_Logbook/button_Submit'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Add_Logbook/button_OK'))
 

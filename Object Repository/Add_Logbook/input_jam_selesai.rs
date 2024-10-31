@@ -10,6 +10,10 @@
          <value>//input[@value='2:30 PM']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input.form-control.react-datepicker-ignore-onclickoutside</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>786032ae-fbba-4774-a6b7-8a37e89515a5</webElementGuid>
+      <webElementGuid>4dd58881-c9d5-4a5d-b95b-9621102239b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control react-datepicker-ignore-onclickoutside</value>
-      <webElementGuid>5c7d1f88-4fd4-4234-91b9-150a027e1906</webElementGuid>
+      <webElementGuid>7012fcc2-e54f-4b0b-82d1-4c8bce01c3b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a868b7aa-83e5-473e-a5f6-1b8f7db9ebb1</webElementGuid>
+      <webElementGuid>8d2e3f12-6157-40da-b35b-e0905120ca66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>value</name>
       <type>Main</type>
       <value>2:30 PM</value>
-      <webElementGuid>71356b80-ff48-47d8-a1c3-01d72d4bdd91</webElementGuid>
+      <webElementGuid>3c3c3cce-9298-42cd-bcc2-81d43127d694</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;c-app c-default-layout&quot;]/div[@class=&quot;c-wrapper&quot;]/div[@class=&quot;c-body&quot;]/main[@class=&quot;c-main&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;fade show&quot;]/div[@class=&quot;container-mains&quot;]/div[4]/div[@class=&quot;modal overflow-auto fade show d-block&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/form[1]/div[@class=&quot;mb-4 card-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row form-group my-0 mx-2&quot;]/div[@class=&quot;col-8&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[@class=&quot;form-control react-datepicker-ignore-onclickoutside&quot;]</value>
-      <webElementGuid>c75de07b-8d73-4001-b6f4-9adea62446d8</webElementGuid>
+      <webElementGuid>dacb57de-02cb-4760-b290-b024d2fa8cd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='2:30 PM']</value>
-      <webElementGuid>dd5292dc-a81b-4c07-8647-3aa0e532f7de</webElementGuid>
+      <webElementGuid>ec5f92e5-9eb6-4b91-856f-0d94c3b069fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[3]/div/main/div/div/div/div[4]/div/div/div/form/div/div[2]/div[3]/div[2]/div/div/div/input</value>
-      <webElementGuid>d5a623d3-9c5c-43ad-99fa-e866140ae971</webElementGuid>
+      <webElementGuid>4b86df1f-63a9-4658-9c65-a9ffaa075ef2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div/input</value>
-      <webElementGuid>bd3fb621-6220-4355-b493-709a283848d3</webElementGuid>
+      <webElementGuid>f29fbc95-ded6-4e09-9b62-64c59b9f9151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>512760cc-2b95-4d20-9d9b-fce50bb11302</webElementGuid>
+      <webElementGuid>dad53c7d-7429-45ed-9766-68539300285b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

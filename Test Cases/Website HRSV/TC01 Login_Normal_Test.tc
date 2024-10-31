@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01 Login_normal_test</name>
+   <name>TC01 Login_Normal_Test</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>203fbc34-4b7f-435a-9191-9a5cb37369ba</testCaseGuid>
